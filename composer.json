@@ -1,0 +1,24 @@
+{
+    "name": "bitrix/www",
+    "autoload": {
+        "psr-4": {
+            "Bitrix\\Www\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sdn",
+            "email": "sdn@sibcode.team"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.29",
+        "phpoffice/phpword": "^1.1"
+    },
+    "replace": {
+        "psr/log":  "*",
+        "psr/container":  "*",
+        "psr/http-client":  "*",
+        "psr/http-message":  "*"
+    }
+}

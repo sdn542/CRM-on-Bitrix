@@ -1,0 +1,1 @@
+<a href="#" data-bs-target="#policyModal" data-bs-toggle="modal" style="text-decoration: underline;">Подробнее</a>
